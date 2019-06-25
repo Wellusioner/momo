@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>MOMO</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  
+  <header class="py-2">
+    <div class="container h-100">
+      <div class="d-flex justify-content-between align-items-center h-100">
+        <a href="#!">
+          <img src="./images/logo_small.svg" alt="">
+        </a>
+        <nav class="d-lg-flex">
+          <ul class="d-lg-flex">
+            <li><a class="color-pink-hover active" href="#main">Главная</a></li>
+            <li><a class="color-pink-hover" href="#about">О нас</a></li>
+            <li><a class="color-pink-hover" href="#portfolio">Примеры работ</a></li>
+            <li><a class="color-pink-hover" href="#service">Услуги</a></li>
+            <li><a class="color-pink-hover" href="#master">Мастера</a></li>
+            <li><a class="color-pink-hover" href="#question">FAQ</a></li>
+          </ul>
+          <a class="call-us color-pink-hover" href="tel:+78905465784">+ 7 890 546 57 84</a>
+          <span class="menu-closer d-lg-none font-700">&times;</span>
+        </nav>
+        <div class="hamburger d-lg-none color-pink"><i class="fa fa-bars fa-2x"></i></div>
+        <div class="helper-div d-lg-none"></div>
+      </div>
+    </div>
+  </header>
+
+  <div id="main" class="main-banner swiper-container new-swiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide" style="background-image: url(./images/banner-bg.jpg)">
+        <div class="container">
+          <div class="slider-box">
+            <h2 class="slider-title font-900">Маникюр, <br> о котором вы мечтали!</h2>
+            <div class="slider-text">Получите <span>скидку 35%</span> на свой первый заказ</div>
+            <a class="default-button" href="#!">Подробнее</a>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide" style="background-image: url(./images/banner-bg.jpg)">
+        <div class="container">
+          <div class="slider-box">
+            <h2 class="slider-title font-900">Маникюр, <br> о котором вы мечтали!</h2>
+            <div class="slider-text">Получите <span>скидку 35%</span> на свой первый заказ</div>
+            <a class="default-button" href="#!">Подробнее</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-button-prev"><img src="./images/arrow-left.svg" alt=""></div>
+    <div class="swiper-button-next"><img src="./images/arrow-right.svg" alt=""></div>
+  </div>
+
+  <div class="form-section padding-y pink-bg">
+    <div class="container">
+      <form action="#!" method="POST">
+        <div class="row">
+          <div class="form-group mb-lg-0 col-lg-3 col-md-6">
+            <select class="form-control" name="service">
+              <option value="0" selected disabled>Выберите услугу</option>
+              <option value="1">Option1</option>
+              <option value="2">Option2</option>
+            </select>
+          </div>
+          <div class="form-group mb-lg-0 col-lg-3 col-md-6">
+            <input class="form-control" name="name" type="text" placeholder="Имя*">
+          </div>
+          <div class="form-group mb-lg-0 col-lg-3 col-md-6">
+            <input class="form-control" name="phone" type="text" placeholder="Номер телефона*">
+          </div>
+          <div class="form-group mb-lg-0 col-lg-3 col-md-6">
+            <button class=" default-button call-master">Вызвать мастера</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <div  class="why-section padding-y">
+    <div class="container">
+      <h2 class="section-title title-margin text-center">Почему выбирают МОМО?</h2>
+      <div class="row why-group">
+        <div class="col-lg-6">
+          <div class="why-item">
+            <div class="why-image"><img src="./images/select1.svg" alt=""></div>
+            <h5 class="why-title color-pink font-500">МОМО сегодня это:</h5>
+            <div class="has-flag">Более 500k обработанных ногтей</div>
+            <div class="has-flag">Более 100 мастеров-профессионалов со средним рейтингом 4.91 </div>
+            <div class="has-flag">Более 34k сэкономленных часов</div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="why-item">
+            <div class="why-image"><img src="./images/select2.svg" alt=""></div>
+            <h5 class="why-title color-pink font-500">Чего ждать клиенту:</h5>
+            <div class="has-flag">Мастер приедет в удобное время домой или в офис</div>
+            <div class="has-flag">Привезет с собой 50 разных оттенков</div>
+            <div class="has-flag">Вы сэкономите время и потратите его на полезные дела, а не на дорогу до салона</div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="why-item">
+            <div class="why-image"><img src="./images/select3.svg" alt=""></div>
+            <h5 class="why-title color-pink font-500">Гарантия качества:</h5>
+            <div class="has-flag">Мы уверены в своих мастерах на 100%, если услуга будет сделана некачественно, вернем деньги или переделаем бесплатно</div>            
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="why-item">
+            <div class="why-image"><img src="./images/select4.svg" alt=""></div>
+            <h5 class="why-title color-pink font-500">Скачай приложение:</h5>
+            <div class="has-flag">Выбери подходящего мастера по отзывам и примерам работ</div>
+            <div class="has-flag">Добавляй мастеров в избранное и выбирай только их</div>
+            <div class="has-flag">Управляй своим заказом внутри приложения</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="sale-section padding-y">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5">
+          <h2 class="section-title font-700 color-pink">Счастливый понедельник</h2>
+          <div class="sale-text has-dif-color mb-lg-0 mb-md-3">Каждый понедельник у нас скидки в размере <span>10% !</span></div>
+        </div>
+        <div class="col-lg-7">
+          <form action="#!" method="POST">
+            <div class="row">
+              <div class="form-group col-md-6">
+                <select class="form-control" name="service">
+                  <option value="0" selected disabled>Выберите услугу</option>
+                  <option value="1">Option1</option>
+                  <option value="2">Option2</option>
+                </select>
+              </div>
+              <div class="form-group col-md-6">
+                <input class="form-control" name="name" type="text" placeholder="Имя*">
+              </div>
+              <div class="form-group col-md-6">
+                <input class="form-control" name="phone" type="text" placeholder="Номер телефона">
+              </div>
+              <div class="form-group col-md-6">
+                <button class="call-master default-button w-100">Получить скидку</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="service" class="service-section padding-y pink-bg">
+    <div class="container">
+      <h2 class="section-title text-center title-margin">Наши услуги</h2>
+      <div class="service-box">
+        <div class="row service-group">
+          <div class="col-md-6">
+            <div class="service-image" style="background-image: url('./images/service1.jpg')"></div>
+          </div>
+          <div class="col-md-6">
+            <div class="service-wrapper">
+              <div class="service-item">
+                <div class="service-top d-flex justify-content-between flex-wrap">
+                  <h5 class="service-title font-700">Маникюр</h5>
+                  <span class="service-price color-pink font-700">от 1200 руб.</span>
+                </div>
+                <p> <span>&bullet;</span> Мастер приедет в удобное для вас время;</p>
+                <p><span>&bullet;</span> Привезет все материалы </p>
+                <p><span>&bullet;</span> Поможет подобрать лучший вариант маникюра</p>
+                <a class="d-inline-block default-button" href="#!">Прайс лист</a>
+              </div>
+              <div class="price-list bg-white">
+                <div class="price-inside">
+                  <div class="row">
+                    <div class="col-md-8">
+                      <h5 class="color-pink font-500">Классический уход 1200 руб.</h5>
+                      <span>Маникюр + шеллак+ питательный крем для рук.</span>
+                    </div>
+                    <div class="col-md-4">
+                      <a class="w-100 default-button" href="#!">Заказать</a>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-8">
+                      <h5 class="color-pink font-500">Ухоженные ручки 1300 руб.</h5>
+                      <span>Маникюр + шеллак + уход маслом+ массаж рук.</span>
+                    </div>
+                    <div class="col-md-4">
+                      <a class="w-100 default-button" href="#!">Заказать</a>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-8">
+                      <h5 class="color-pink font-500">Нежность каждый день 1300 руб.</h5>
+                      <span>Маникюр + шеллак + скраб для рук + питательный крем для рук</span>
+                    </div>
+                    <div class="col-md-4">
+                      <a class="w-100 default-button" href="#!">Заказать</a>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-8">
+                      <h5 class="color-pink font-500">Арома терапия 1300 руб.</h5>
+                      <span>Маникюр + шеллак+ расслабляющая ванночка с бальзамом + успокаивающий массаж + питательный крем для рук.</span>
+                    </div>
+                    <div class="col-md-4">
+                      <a class="w-100 default-button" href="#!">Заказать</a>
+                    </div>
+                  </div>
+                  <div class="d-md-block d-none">
+                    <h5 class="color-pink font-500  mb-2">Снятие шиллак бесплатно</h5>
+                    <span class="extra-info color-green">Примечание*</span>
+                    <div class="extra-info"><span class="color-green">*</span> Выезд мастера после 23:00 и до 8:00 оплачивается с наценкой в размере 60%</div>
+                    <div class="extra-info"><span class="color-green">*</span> Мастер привезет с собой на выбор большую палитру цветов</div>
+                  </div>
+                </div>
+                <div class="extra-for-mobile pt-2 d-md-none">
+                  <h5 class="color-pink font-500  mb-2">Снятие шиллак бесплатно</h5>
+                  <span class="extra-info color-green">Примечание*</span>
+                  <div class="extra-info"><span class="color-green">*</span> Выезд мастера после 23:00 и до 8:00 оплачивается с наценкой в размере 60%</div>
+                  <div class="extra-info"><span class="color-green">*</span> Мастер привезет с собой на выбор большую палитру цветов</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row service-group">
+          <div class="col-md-6">
+            <div class="service-image" style="background-image: url('./images/service2.jpg')"></div>
+          </div>
+          <div class="col-md-6">
+            <div class="service-wrapper">
+              <div class="service-item">
+                <div class="service-top d-flex justify-content-between flex-wrap">
+                  <h5 class="service-title font-700">Педикюр</h5>
+                  <span class="service-price color-pink font-700">от 1600 руб.</span>
+                </div>
+                <p><span>&bullet;</span> Мастер может работать с вашими инструментами, если они у вас есть.</p>
+                <p><span>&bullet;</span> Если результат вас не устроит, переделаем бесплатно</p>
+                <a class="d-inline-block default-button" href="#!">Прайс лист</a>
+              </div>
+              <div class="price-list bg-white">
+                  <div class="price-inside">
+                    <div class="row">
+                      <div class="col-md-8">
+                        <h5 class="color-pink font-500">Классический уход 1200 руб.</h5>
+                        <span>Маникюр + шеллак+ питательный крем для рук.</span>
+                      </div>
+                      <div class="col-md-4">
+                        <a class="w-100 default-button" href="#!">Заказать</a>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-8">
+                        <h5 class="color-pink font-500">Ухоженные ручки 1300 руб.</h5>
+                        <span>Маникюр + шеллак + уход маслом+ массаж рук.</span>
+                      </div>
+                      <div class="col-md-4">
+                        <a class="w-100 default-button" href="#!">Заказать</a>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-8">
+                        <h5 class="color-pink font-500">Нежность каждый день 1300 руб.</h5>
+                        <span>Маникюр + шеллак + скраб для рук + питательный крем для рук</span>
+                      </div>
+                      <div class="col-md-4">
+                        <a class="w-100 default-button" href="#!">Заказать</a>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-8">
+                        <h5 class="color-pink font-500">Арома терапия 1300 руб.</h5>
+                        <span>Маникюр + шеллак+ расслабляющая ванночка с бальзамом + успокаивающий массаж + питательный крем для рук.</span>
+                      </div>
+                      <div class="col-md-4">
+                        <a class="w-100 default-button" href="#!">Заказать</a>
+                      </div>
+                    </div>
+                    <div class="d-md-block d-none">
+                      <h5 class="color-pink font-500  mb-2">Снятие шиллак бесплатно</h5>
+                      <span class="extra-info color-green">Примечание*</span>
+                      <div class="extra-info"><span class="color-green">*</span> Выезд мастера после 23:00 и до 8:00 оплачивается с наценкой в размере 60%</div>
+                      <div class="extra-info"><span class="color-green">*</span> Мастер привезет с собой на выбор большую палитру цветов</div>
+                    </div>
+                  </div>
+                  <div class="extra-for-mobile pt-2 d-md-none">
+                    <h5 class="color-pink font-500  mb-2">Снятие шиллак бесплатно</h5>
+                    <span class="extra-info color-green">Примечание*</span>
+                    <div class="extra-info"><span class="color-green">*</span> Выезд мастера после 23:00 и до 8:00 оплачивается с наценкой в размере 60%</div>
+                    <div class="extra-info"><span class="color-green">*</span> Мастер привезет с собой на выбор большую палитру цветов</div>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="row service-group">
+          <div class="col-md-6">
+            <div class="service-image" style="background-image: url('./images/service3.jpg')"></div>
+          </div>
+          <div class="col-md-6">
+            <div class="service-wrapper">
+              <div class="service-item">
+                <div class="service-top d-flex justify-content-between flex-wrap">
+                  <h5 class="service-title font-700">Мужской маникюр</h5>
+                  <span class="service-price color-pink font-700">от 1500 руб.</span>
+                </div>
+                <p><span>&bullet;</span> Вы сэкономите время и потратите его на полезные дела, а не на дорогу в салон или длительное ожидание к мастеру.</p>
+                <a class="d-inline-block default-button" href="#!">Прайс лист</a>
+              </div>
+              <div class="price-list bg-white">
+                  <div class="price-inside">
+                    <div class="row">
+                      <div class="col-md-8">
+                        <h5 class="color-pink font-500">Классический уход 1200 руб.</h5>
+                        <span>Маникюр + шеллак+ питательный крем для рук.</span>
+                      </div>
+                      <div class="col-md-4">
+                        <a class="w-100 default-button" href="#!">Заказать</a>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-8">
+                        <h5 class="color-pink font-500">Ухоженные ручки 1300 руб.</h5>
+                        <span>Маникюр + шеллак + уход маслом+ массаж рук.</span>
+                      </div>
+                      <div class="col-md-4">
+                        <a class="w-100 default-button" href="#!">Заказать</a>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-8">
+                        <h5 class="color-pink font-500">Нежность каждый день 1300 руб.</h5>
+                        <span>Маникюр + шеллак + скраб для рук + питательный крем для рук</span>
+                      </div>
+                      <div class="col-md-4">
+                        <a class="w-100 default-button" href="#!">Заказать</a>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-8">
+                        <h5 class="color-pink font-500">Арома терапия 1300 руб.</h5>
+                        <span>Маникюр + шеллак+ расслабляющая ванночка с бальзамом + успокаивающий массаж + питательный крем для рук.</span>
+                      </div>
+                      <div class="col-md-4">
+                        <a class="w-100 default-button" href="#!">Заказать</a>
+                      </div>
+                    </div>
+                    <div class="d-md-block d-none">
+                      <h5 class="color-pink font-500  mb-2">Снятие шиллак бесплатно</h5>
+                      <span class="extra-info color-green">Примечание*</span>
+                      <div class="extra-info"><span class="color-green">*</span> Выезд мастера после 23:00 и до 8:00 оплачивается с наценкой в размере 60%</div>
+                      <div class="extra-info"><span class="color-green">*</span> Мастер привезет с собой на выбор большую палитру цветов</div>
+                    </div>
+                  </div>
+                  <div class="extra-for-mobile pt-2 d-md-none">
+                    <h5 class="color-pink font-500  mb-2">Снятие шиллак бесплатно</h5>
+                    <span class="extra-info color-green">Примечание*</span>
+                    <div class="extra-info"><span class="color-green">*</span> Выезд мастера после 23:00 и до 8:00 оплачивается с наценкой в размере 60%</div>
+                    <div class="extra-info"><span class="color-green">*</span> Мастер привезет с собой на выбор большую палитру цветов</div>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="about" class="about-section">
+    <div class="container padding-y">
+      <div class="row">
+        <div class="col-lg-9 offset-lg-3">
+          <h2 class="section-title title-margin">О нас</h2>
+          <div class="about-text">Момо, это молодая команда креативных специалистов. Мы собрали команду, лучших специалистов в сфере маникюра, все они прошли дополнительное образование, а также тестирование, перед тем как попасть к нам в команду. </div>
+          <div class="about-text">Наши мастера проходят дополнительные мастер классы по повышению квалификаций. А также мы следим за всеми новинками на рынке в индустрии красоты.</div>
+          <div class="row">
+            <div class="col-md-6">
+              <h5 class="about-title color-pink font-500">Мы гарантируем: </h5>
+              <div class="has-flag">Высококвалифицированных мастеров</div>
+              <div class="has-flag">Качественное обслуживание</div>
+              <div class="has-flag">Консультации по уходу</div>
+              <div class="has-flag">Стерилизованные инстументы и материалы</div>
+            </div>
+            <div class="col-md-6">
+              <h5 class="about-title color-pink font-500">Сегодня у нас:  </h5>
+              <div class="has-flag">Более 1000 счастливых клиентов;</div>
+              <div class="has-flag">Более 80 сертифицированных специалистов</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img class="d-lg-block d-none about-image" src="./images/about.svg" alt="">
+    </div>
+  </div>
+
+  <div id="master" class="comfort-section padding-y pink-bg">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <h2 class="section-title">Момо - это комфорт</h2>
+          <div class="comfort-text mb-lg-0 mb-md-3">Мы готовы предоставить Вам услуги по душе! Комфорт клиента очень важен для нас!</div>
+        </div>
+        <div class="col-lg-8 pt-lg-0 pt-4">
+          <form action="#!" method="POST">
+            <div class="row comfort-group">
+              <div class="col-sm-4">
+                <div class="comfort-item text-center">
+                  <input type="radio" id="comfort1" name="comfort">                
+                  <label for="comfort1">
+                    <span class="comfort-image"><img src="./images/comfort1.svg" alt=""></span>
+                    <span class="comfort-title color-pink font-700">Молчаливый мастер</span>
+                  </label>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="comfort-item text-center">
+                  <input type="radio" id="comfort2" name="comfort">
+                  <label for="comfort2">
+                    <span class="comfort-image"><img src="./images/comfort2.svg" alt=""></span>
+                    <span class="comfort-title color-pink font-700">Душевный разговор</span>
+                  </label>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="comfort-item text-center"> 
+                  <input type="radio" id="comfort3" name="comfort">                
+                  <label for="comfort3">
+                    <span class="comfort-image"><img src="./images/comfort3.svg" alt=""></span>
+                    <span class="comfort-title color-pink font-700">Музыка релакс FM</span>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="portfolio" class="portfolio-section padding-y">
+    <div class="container">
+      <h2 class="section-title text-center title-margin">Наше портфолио</h2>
+      <div class="portfolio-carousel swiper-container new-swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide" style="background-image: url(./images/portfolio2.jpg)"></div>
+          <div class="swiper-slide" style="background-image: url(./images/portfolio3.jpg)"></div>
+          <div class="swiper-slide" style="background-image: url(./images/portfolio1.jpg)"></div>
+        </div>
+        <div class="swiper-button-prev"><img src="./images/arrow-left.svg" alt=""></div>
+        <div class="swiper-button-next"><img src="./images/arrow-right.svg" alt=""></div>
+      </div>
+    </div>
+  </div>
+
+  <div id="question" class="question-section padding-y" style="background-image: url(./images/question-bg.png)">
+    <div class="container">
+      <h2 class="section-title title-margin">Часто задаваемые вопросы</h2>
+      <div class="row">
+        <div class="col-lg-4 d-lg-block d-none">
+          <div class="question-image"><img src="./images/question-mark.svg" alt=""></div>
+        </div>
+        <div class="col-lg-8">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="question-item">
+                <div class="question-icon"><img src="./images/question-icon.svg" alt=""></div>
+                <h5 class="question-title color-pink font-700 mb-2">Куда приезжает мастер Момо?</h5>
+                <div class="question-answer">
+                  Мы работаем по всей Москве в пределах МКАД, мастер приедет куда-угодно, дом, офис, отель.
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="question-item">
+                <div class="question-icon"><img src="./images/question-icon.svg" alt=""></div>
+                <h5 class="question-title color-pink font-700 mb-2">Когда можно вызвать мастера ?</h5>
+                <div class="question-answer">
+                  Мы работаем по всей Москве в пределах МКАД, мастер приедет куда-угодно, дом, офис, отель.
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="question-item">
+                <div class="question-icon"><img src="./images/question-icon.svg" alt=""></div>
+                <h5 class="question-title color-pink font-700 mb-2">Как изменить адрес/время заказа?</h5>
+                <div class="question-answer">
+                  Мы работаем по всей Москве в пределах МКАД, мастер приедет куда-угодно, дом, офис, отель.
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="question-item">
+                <div class="question-icon"><img src="./images/question-icon.svg" alt=""></div>
+                <h5 class="question-title color-pink font-700 mb-2">Как стерилизуются инструменты?</h5>
+                <div class="question-answer">
+                  Мы работаем по всей Москве в пределах МКАД, мастер приедет куда-угодно, дом, офис, отель.
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="question-item">
+                <div class="question-icon"><img src="./images/question-icon.svg" alt=""></div>
+                <h5 class="question-title color-pink font-700 mb-2">Как мне заказать набор новых инструментов?</h5>
+                <div class="question-answer">
+                  Мы работаем по всей Москве в пределах МКАД, мастер приедет куда-угодно, дом, офис, отель.
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="question-item">
+                <div class="question-icon"><img src="./images/question-icon.svg" alt=""></div>
+                <h5 class="question-title color-pink font-700 mb-2">Сколько по времени вы делаете маникюр?</h5>
+                <div class="question-answer">
+                  Мы работаем по всей Москве в пределах МКАД, мастер приедет куда-угодно, дом, офис, отель.
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="question-item">
+                <div class="question-icon"><img src="./images/question-icon.svg" alt=""></div>
+                <h5 class="question-title color-pink font-700 mb-2">Может ли мастер работать моим инструментом?</h5>
+                <div class="question-answer">
+                  Мы работаем по всей Москве в пределах МКАД, мастер приедет куда-угодно, дом, офис, отель.
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="question-item">
+                <div class="question-icon"><img src="./images/question-icon.svg" alt=""></div>
+                <h5 class="question-title color-pink font-700 mb-2">Можно ли заказать маникюр без покрытия?</h5>
+                <div class="question-answer">
+                  Мы работаем по всей Москве в пределах МКАД, мастер приедет куда-угодно, дом, офис, отель.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="insta-section">
+    <div class="container padding-y">
+      <div class="row">
+        <div class="col-lg-7">
+          <h2 class="section-title color-pink">Подпишитесь на наш инстаграм</h2>
+          <div class="insta-text">и узнавайте о новинках, акциях и скидках первыми!</div>
+          <div><a class="insta-tag color-pink font-700" href="#!">@momo_nails_beauty</a></div>
+          <a class="insta-link default-button d-inline-block" href="#!">Подписаться</a>
+        </div>
+        <div class="col-lg-5 d-lg-block d-none">
+          <div class="insta-image"><img src="./images/mobile.png" alt=""></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="formbox-section padding-y">
+    <div class="container">
+      <div class="formbox-square d-flex align-items-stretch">
+        <div class="formbox-image d-md-block d-none" style="background-image: url('./images/lady.jpg')"></div>
+        <div class="formbox-area pink-bg">
+          <form action="#!" method="POST">
+            <h2 class="section-title">Остались вопросы?</h2>
+            <span class="formbox-text">Мы будем рады ответить!</span>
+            <div class="form-group">
+              <input class="form-control" name="name" type="text"  placeholder="Имя*">
+            </div>
+            <div class="form-group">
+              <input class="form-control" name="phone" type="tel"  placeholder="Номер телефона*">
+            </div>
+            <div class="form-group">
+              <textarea name="message" cols="30" rows="4" class="form-control" placeholder="Сообщение*"></textarea>
+            </div>
+            <button class="default-button w-100">Отправить</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer pink-bg">
+    <div class="container">
+      <div class="contact-section py-4">
+        <div class="row contact-group">
+          <div class="col-md-4 mb-md-0 mb-2">
+            <div class="contact-item text-center">
+              <i class="fas fa-map-marker-alt"></i>
+              Здесь будет ваш адрес
+            </div>
+          </div>
+          <div class="col-md-4 mb-md-0 mb-2">
+            <div class="contact-item text-center color-pink-hover">
+              <i class="fas fa-phone"></i>
+              <a class="color-pink-hover" href="tel:+89233234332">+8 923 323 43 32</a>
+            </div>
+          </div>
+          <div class="col-md-4 mb-md-0 mb-2">
+            <div class="contact-item text-center color-pink-hover">
+              <i class="fas fa-envelope" aria-hidden="true"></i>
+              <a class="color-pink-hover" href="#!">Здесь будет ваш email</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-body py-4">
+        <ul class="d-flex justify-content-center flex-wrap">
+          <li><a class="color-pink-hover active" href="#!">Главная</a></li>
+          <li><a class="color-pink-hover" href="#!">О нас</a></li>
+          <li><a class="color-pink-hover" href="#!">Примеры работ</a></li>
+          <li><a class="color-pink-hover" href="#!">Услуги</a></li>
+          <li><a class="color-pink-hover" href="#!">Мастера</a></li>
+          <li><a class="color-pink-hover" href="#!">FAQ</a></li>
+        </ul>
+        <div class="rights text-center">Copyright &copy; 2019. “MOMO”. All rights reserved.</div>
+      </div>
+    </div>
+  </footer>
+
+
+
+  <script src="./js/jquery-3.3.1.min.js"></script>
+  <script src="./js/swiper.min.js"></script>
+  <script src="./js/datepicker.min.js"></script>
+  <script src="./js/timepicker.min.js"></script>
+  <script src="./js/main.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'ProximaNova-Medium';
+  src: url('ProximaNova-Medium.woff') format('woff'),
+       url('ProximaNova-Medium.ttf') format('truetype'),
+       url('ProximaNova-Medium.svg#ProximaNova-Medium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'proxima-nova-medium';
+  src: url('proxima-nova-medium.eot');
+  src: url('proxima-nova-medium.woff2') format('woff2'),
+       url('proxima-nova-medium.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
